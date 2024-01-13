@@ -1,9 +1,9 @@
-import launch
 import os
 import sys
 import pkg_resources
 from packaging.version import parse
 sys.path.append('/stable-diffusion-webui/')
+import launch
 
 
 def check_install() -> None:
