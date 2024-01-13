@@ -30,7 +30,8 @@ def is_sha1_matching(file_path: str, expected_sha1: str) -> bool:
 
 
 def check_model() -> bool:
-    model_path = get_current_swap_model()
+    #model_path = get_current_swap_model()
+    model_path = "/stable-diffusion-webui/models/faceswaplab/inswapper_128.onnx"
     if not is_sha1_matching(
         file_path=model_path, expected_sha1=EXPECTED_INSWAPPER_SHA1
     ):
