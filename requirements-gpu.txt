@@ -7,5 +7,4 @@ opencv-python
 pandas
 pydantic
 safetensors
-onnxruntime>=1.15.0
 onnxruntime-gpu>=1.15.0
