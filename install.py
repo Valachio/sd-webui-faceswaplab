@@ -3,7 +3,7 @@ import os
 import sys
 import pkg_resources
 from packaging.version import parse
-sys.path.append('/stable-diffusion-webui')
+sys.path.append('/stable-diffusion-webui/')
 
 
 def check_install() -> None:
