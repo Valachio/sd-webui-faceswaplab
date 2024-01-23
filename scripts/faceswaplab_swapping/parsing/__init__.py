@@ -64,9 +64,11 @@ def load_file_from_url(url: str, model_dir=None, progress=True, file_name=None):
         filename = file_name
     #cached_file = os.path.abspath(os.path.join(ROOT_DIR, model_dir, filename))
     cached_file = '/stable-diffusion-webui/models/faceswaplab/parser/weights/facelib/parsing_parsenet.pth'   
+    """
     if not os.path.exists(cached_file):
         print(f'Downloading: "{url}" to {cached_file}\n')
         download_url_to_file(url, cached_file, hash_prefix=None, progress=progress)
+    """
     return cached_file
 
 
